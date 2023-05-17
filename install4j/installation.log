@@ -1,0 +1,323 @@
+[INFO] logger started at Wed May 17 15:33:37 CST 2023
+[INFO] executable name: /mnt/e/Python/Python_apply/EasyGWAS/Script/TASSEL_5_unix.sh
+[INFO] install4j version: 8.0.11 (build 8268)
+[INFO] Properties: 
+-- listing properties --
+java.specification.version=17
+install4j.launcherId=998
+sun.jnu.encoding=UTF-8
+java.class.path=i4jruntime.jar:launcher0.jar
+java.vm.vendor=Private Build
+sun.arch.data.model=64
+install4j.exeDir=/mnt/e/Python/Python_apply/EasyGWAS/S...
+java.vendor.url=Unknown
+user.timezone=Asia/Shanghai
+java.vm.specification.version=17
+os.name=Linux
+sun.java.launcher=SUN_STANDARD
+sun.boot.library.path=/usr/lib/jvm/java-17-openjdk-amd64/lib
+sun.java.command=install4j.Installer3300111121
+jdk.debug=release
+sun.cpu.endian=little
+user.home=/home/zzq
+user.language=en
+sun.stderr.encoding=UTF-8
+java.specification.vendor=Oracle Corporation
+java.version.date=2023-01-17
+java.home=/usr/lib/jvm/java-17-openjdk-amd64
+file.separator=/
+java.vm.compressedOopsMode=Zero based
+line.separator=
+
+sun.stdout.encoding=UTF-8
+java.vm.specification.vendor=Oracle Corporation
+java.specification.name=Java Platform API Specification
+exe4j.moduleName=/mnt/e/Python/Python_apply/EasyGWAS/S...
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.runtime.version=17.0.6+10-Ubuntu-0ubuntu122.04
+user.name=zzq
+path.separator=:
+os.version=4.4.0-22621-Microsoft
+java.runtime.name=OpenJDK Runtime Environment
+file.encoding=UTF-8
+java.vm.name=OpenJDK 64-Bit Server VM
+install4j.jvmDir=/usr/lib/jvm/java-17-openjdk-amd64
+install4j.cwd=/mnt/e/Python/Python_apply/EasyGWAS/S...
+install4j.appDir=/mnt/e/Python/Python_apply/EasyGWAS/S...
+java.vendor.url.bug=Unknown
+java.io.tmpdir=/tmp
+java.version=17.0.6
+user.dir=/mnt/e/Python/Python_apply/EasyGWAS/S...
+os.arch=amd64
+java.vm.specification.name=Java Virtual Machine Specification
+exe4j.totalDataLength=81680734
+native.encoding=UTF-8
+java.library.path=/mnt/e/Python/Python_apply/EasyGWAS/S...
+java.vm.info=mixed mode, sharing
+java.vendor=Private Build
+java.vm.version=17.0.6+10-Ubuntu-0ubuntu122.04
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=61.0
+install4j.swt=false
+[INFO] Variable changed: sys.resolveUserSpecificInstallationDir=false[class java.lang.String]
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 13]: Execute action
+       Property allRequested: false
+       Property failIfNotObtainedMac: true
+       Property failIfNotObtainedWin: true
+       Property failIfNotRootUnix: false
+       Property obtainIfAdminMac: false
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalMac: false
+       Property obtainIfNormalWin: false
+       Property rollbackSupported: false
+       Property updateInstallationDirectory: true
+       Variable changed: sys.resolveUserSpecificInstallationDir=true[class java.lang.Boolean]
+       Execute action successful after 3 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 162]: Show screen
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 162]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: Show screen
+       checking writable with maximum
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 5]: Execute action
+       Property excludedVariables: [sys.installationDir]
+       Property file: null
+       Property overwriteStrategy: Do not overwrite command line
+       Property registerForResponseFile: true
+       Property rollbackSupported: false
+       Response file /home/zzq/TASSEL5/.install4j/response.varfile does not exist
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: Show screen
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+       Variable changed: sys.symlinkDir=/usr/local/bin[class java.lang.String]
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
+       Property directoryResolverScript: null
+       Property fileFilterScript: null
+       Property sizeCalculatorScript: null
+       Property acceptAllCertificates: false
+       Property checkFreeSpace: true
+       Property delay: false
+       Property installRuntime: true
+       Property rollbackSupported: true
+       Property saveDownloadedFiles: false
+       Property showFileNames: true
+       Property triggerReboot: true
+       Property updateBundledJre: true
+       Property validateApplicationId: false
+       Install file: /home/zzq/TASSEL5/.install4j/Tassel 5.png; size: 18938 bytes; exists: false
+       File options set to: [fileTime: Tue Mar 14 23:58:12 CST 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /home/zzq/TASSEL5/.install4j/Tassel5Updater; size: 13779 bytes; exists: false
+       File options set to: [fileTime: Tue Mar 14 23:58:12 CST 2023, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/zzq/TASSEL5/.install4j/Tassel5Updater.png; size: 1884 bytes; exists: false
+       File options set to: [fileTime: Tue Mar 14 23:58:12 CST 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /home/zzq/TASSEL5/.install4j/s_60j40o.png; size: 125415 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/.install4j/uninstall.png; size: 6648 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/Tassel 5; size: 13322 bytes; exists: false
+       File options set to: [fileTime: Tue Mar 14 23:58:12 CST 2023, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/zzq/TASSEL5/Tassel 5.vmoptions; size: 243 bytes; exists: false
+       File options set to: [fileTime: Tue Mar 14 23:58:12 CST 2023, mode: 644, overwriteMode: Never, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /home/zzq/TASSEL5/TutorialData/mdp_genotype.hmp.txt; size: 2796284 bytes; exists: false
+       File options set to: [fileTime: Tue Mar 14 23:58:12 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/zzq/TASSEL5/TutorialData/mdp_kinship.txt; size: 383243 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/TutorialData/mdp_phenotype.txt; size: 22782 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/TutorialData/mdp_population_structure.txt; size: 6741 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/TutorialData/mdp_traits.txt; size: 6631 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/.ipynb_checkpoints/Untitled-checkpoint.ipynb; size: 72 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/Untitled.ipynb; size: 494 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/ahocorasick-0.2.4.jar; size: 21967 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/biojava-alignment-6.0.4.jar; size: 129328 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/biojava-core-6.0.4.jar; size: 474830 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/biojava-genome-6.0.4.jar; size: 119562 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/biojava-phylo-4.2.12.jar; size: 44813 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/colt-1.2.0.jar; size: 581945 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/commons-codec-1.10.jar; size: 284184 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/commons-io-2.11.0.jar; size: 327135 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/commons-math3-3.4.1.jar; size: 2035066 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/ejml-core-0.41.jar; size: 259045 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/ejml-ddense-0.41.jar; size: 408061 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/enzymes.ini; size: 8007 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/fastutil-8.2.2.jar; size: 18800316 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/forester-1.039.jar; size: 1651430 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/gs-core-1.3.jar; size: 926273 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/gs-ui-1.3.jar; size: 447110 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/guava-22.0.jar; size: 2575022 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/htsjdk-2.24.1.jar; size: 1799568 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/ini4j-0.5.4.jar; size: 106180 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/itextpdf-5.1.0.jar; size: 1673538 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/jackson-annotations-2.13.2.jar; size: 75717 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/jackson-core-2.13.2.jar; size: 374739 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/jackson-databind-2.13.2.2.jar; size: 1535087 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/jackson-module-kotlin-2.13.2.jar; size: 146547 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/javax.json-1.0.4.jar; size: 85147 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/jcommon-1.0.23.jar; size: 330246 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/jfreechart-1.0.19.jar; size: 1570157 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/jfreesvg-3.2.jar; size: 44171 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/jhdf5-14.12.5.jar; size: 9704798 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/json-simple-1.1.1.jar; size: 23737 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/junit-4.10.jar; size: 281164 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/kotlin-reflect-1.6.10.jar; size: 3038560 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/kotlin-stdlib-1.6.10.jar; size: 1508076 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/kotlin-stdlib-jdk7-1.6.10.jar; size: 22358 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/kotlin-stdlib-jdk8-1.6.10.jar; size: 16202 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/kotlinx-coroutines-core-jvm-1.6.0.jar; size: 1488107 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/log4j-1.2.13.jar; size: 386427 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/mail-1.4.jar; size: 408466 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/phg.jar; size: 1983043 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/postgresql-9.4-1201.jdbc41.jar; size: 648487 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/sTASSEL.jar; size: 3783921 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/scala-library-2.10.1.jar; size: 7137903 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/slf4j-api-1.7.10.jar; size: 32119 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/slf4j-simple-1.7.10.jar; size: 10705 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/snappy-java-1.1.8.4.jar; size: 1970939 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/sqlite-jdbc-3.39.2.1.jar; size: 12603480 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/sshj-0.32.0.jar; size: 557302 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/lib/trove-3.0.3.jar; size: 2523218 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/run_pipeline.pl; size: 1243 bytes; exists: false
+       File options set to: [fileTime: Tue Mar 14 23:58:12 CST 2023, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/zzq/TASSEL5/start_tassel.pl; size: 1261 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/uninstall; size: 13975 bytes; exists: false
+       File options set to: [fileTime: Tue Mar 14 23:58:12 CST 2023, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/zzq/TASSEL5/.install4j/inst_jre.cfg; size: 35 bytes; exists: false
+       File options set to: [fileTime: Wed May 17 15:34:44 CST 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/zzq/TASSEL5/.install4j/i4jruntime.jar; size: 2059609 bytes; exists: false
+       File options set to: [fileTime: Wed May 17 15:34:44 CST 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /home/zzq/TASSEL5/.install4j/MessagesDefault; size: 34423 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/.install4j/i4jparams.conf; size: 119815 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/.install4j/stats.properties; size: 649 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/.install4j/i4jempty.ttf; size: 1004 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/.install4j/launchers.xml; size: 260 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/.install4j/user.jar; size: 28806 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/.install4j/launcher0.jar; size: 716 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/.install4j/launcher24495580.jar; size: 995 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/.install4j/launcher2bfa42ba.jar; size: 758 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/.install4j/launcherf885d53.jar; size: 770 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/.install4j/i4j_extf_0_1iksu1d.utf8; size: 34423 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/.install4j/i4j_extf_1_1iksu1d.txt; size: 26530 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/.install4j/i4j_extf_2_1iksu1d_x7nby6.png; size: 756 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/.install4j/i4j_extf_3_1iksu1d_vd2dea.png; size: 1187 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/.install4j/i4j_extf_4_1iksu1d_un9apv.png; size: 1884 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/.install4j/i4j_extf_5_1iksu1d_18gg8kx.png; size: 9202 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/.install4j/i4j_extf_5_1iksu1d_18gg8kx@2x.png; size: 15419 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/.install4j/libi4jinst.dylib; size: 267504 bytes; exists: false
+       Install file: /home/zzq/TASSEL5/.install4j/libi4jinst2.dylib; size: 120688 bytes; exists: false
+       Execute action successful after 972 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action
+       Property categories: Application
+       Property linkDirectory: /usr/local/bin
+       Property programGroupEntryConfigs: []
+       Property programGroupName: 
+       Property uninstallerMenuName: TASSEL 5 Uninstaller
+       Property addDefaultLauncherLinks: true
+       Property addUninstaller: true
+       Property allUsers: true
+       Property failForSymlinksNotCreated: false
+       Property rollbackSupported: true
+       Property unixMenuEntries: true
+       Property unixSymlinks: true
+       Variable changed: sys.programGroupName=TASSEL 5[class java.lang.String]
+       Install file: /home/zzq/TASSEL5/.install4j/install4j_1ks8h5v-Tassel_5.desktop; size: 243 bytes; exists: false
+       File options set to: [fileTime: Wed May 17 15:34:44 CST 2023, mode: 755, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+[ERROR] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: could not create symbolic link: /usr/local/bin/Tassel 5
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action successful after 559 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
+       Property icon: null
+       Property iconSource: Installer icon
+       Property itemName: TASSEL 5 20230314
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 122]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_83
+       Property variableName: xmx
+       Property failIfNull: false
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: xmx=-Xmx16062m[class java.lang.String]
+       Execute action successful after 10 ms
+[INFO] com.install4j.runtime.beans.actions.misc.AddVmOptionsAction [ID 121]: Execute action
+       Property launcherId: 72
+       Property macosVmOptionsType: Contained in the application bundle
+       Property vmOptions: [-Xmx16062m]
+       Property rollbackSupported: true
+       Backing up /home/zzq/TASSEL5/Tassel 5.vmoptions
+       Execute action successful after 7 ms
+[INFO] com.install4j.runtime.beans.actions.files.DeleteFileAction [ID 463]: Execute action
+       Property directoryFilter: null
+       Property fileFilter: null
+       Property files: [lib/biojava3-alignment-3.0.jar, lib/biojava3-core-3.0.jar, lib/biojava3-phylo-3.0.jar, lib/commons-math-2.2.jar, lib/biojava3-alignment-4.0.0.jar, lib/biojava3-core-4.0.0.jar, lib/biojava3-phylo-4.0.0.jar, lib/sqlite-jdbc-3.8.4.3-SNAPSHOT.jar, lib/sqlite-jdbc-3.8.7.jar, lib/sqlite-jdbc-3.16.1.jar, lib/LiuExt.jar, lib/guava-14.0.1.jar, lib/postgresql-9.3-1102.jdbc41.jar, lib/snappy-java-1.1.0.1.jar, lib/jcommon-1.0.6.jar, lib/jfreechart-1.0.3.jar, lib/guava-19.0.jar, lib/batik-awt-util.jar, lib/batik-css.jar, lib/batik-dom.jar, lib/batik-ext.jar, lib/batik-gui-util.jar, lib/batik-gvt.jar, lib/batik-parser.jar, lib/batik-svg-dom.jar, lib/batik-svggen.jar, lib/batik-util.jar, lib/batik-xml.jar, lib/colt.jar, lib/forester.jar, lib/cisd-jhdf5-batteries_included_lin_win_mac.jar, lib/geronimo-spec-activation-1.0.2-rc4.jar, lib/poi-3.0.1-FINAL-20070705.jar, lib/xml.jar, lib/xmlParserAPIs.jar, lib/xercesImpl.jar, lib/htsjdk-1.138.jar, lib/htsjdk-2.11.0.jar, lib/kotlin-stdlib-1.2.71.jar, lib/htsjdk-2.14.0.jar, lib/kotlin-stdlib-1.3.10.jar, lib/htsjdk-2.19.0.jar, lib/kotlin-stdlib-jdk8-1.3.50.jar, lib/kotlin-stdlib-1.3.50.jar, lib/kotlin-stdlib-jdk7-1.3.50.jar, lib/kotlinx-coroutines-core-1.3.0.jar, lib/ejml-0.23.jar, lib/biojava-alignment-4.0.0.jar, lib/biojava-core-4.0.0.jar, lib/biojava-phylo-4.0.0.jar, lib/forester-1.038.jar, lib/htsjdk-2.23.0.jar, lib/sqlite-jdbc-3.8.5-pre1.jar, lib/snappy-java-1.1.1.6.jar, lib/kotlin-stdlib-1.4.32.jar, lib/kotlin-stdlib-jdk7-1.4.32.jar, lib/kotlin-stdlib-jdk8-1.4.32.jar, lib/kotlinx-coroutines-core-jvm-1.4.3.jar]
+       Property filesRoot: null
+       Property backupForRollback: true
+       Property recursive: false
+       Property rollbackSupported: true
+       Property showFileNames: true
+       Property showProgress: false
+       The file "/home/zzq/TASSEL5/lib/biojava3-alignment-3.0.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/biojava3-core-3.0.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/biojava3-phylo-3.0.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/commons-math-2.2.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/biojava3-alignment-4.0.0.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/biojava3-core-4.0.0.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/biojava3-phylo-4.0.0.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/sqlite-jdbc-3.8.4.3-SNAPSHOT.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/sqlite-jdbc-3.8.7.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/sqlite-jdbc-3.16.1.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/LiuExt.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/guava-14.0.1.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/postgresql-9.3-1102.jdbc41.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/snappy-java-1.1.0.1.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/jcommon-1.0.6.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/jfreechart-1.0.3.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/guava-19.0.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/batik-awt-util.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/batik-css.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/batik-dom.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/batik-ext.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/batik-gui-util.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/batik-gvt.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/batik-parser.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/batik-svg-dom.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/batik-svggen.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/batik-util.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/batik-xml.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/colt.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/forester.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/cisd-jhdf5-batteries_included_lin_win_mac.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/geronimo-spec-activation-1.0.2-rc4.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/poi-3.0.1-FINAL-20070705.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/xml.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/xmlParserAPIs.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/xercesImpl.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/htsjdk-1.138.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/htsjdk-2.11.0.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/kotlin-stdlib-1.2.71.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/htsjdk-2.14.0.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/kotlin-stdlib-1.3.10.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/htsjdk-2.19.0.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/kotlin-stdlib-jdk8-1.3.50.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/kotlin-stdlib-1.3.50.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/kotlin-stdlib-jdk7-1.3.50.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/kotlinx-coroutines-core-1.3.0.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/ejml-0.23.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/biojava-alignment-4.0.0.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/biojava-core-4.0.0.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/biojava-phylo-4.0.0.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/forester-1.038.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/htsjdk-2.23.0.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/sqlite-jdbc-3.8.5-pre1.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/snappy-java-1.1.1.6.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/kotlin-stdlib-1.4.32.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/kotlin-stdlib-jdk7-1.4.32.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/kotlin-stdlib-jdk8-1.4.32.jar" does not exist
+       The file "/home/zzq/TASSEL5/lib/kotlinx-coroutines-core-jvm-1.4.3.jar" does not exist
+       Execute action successful after 7 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: command: finish
+       cleaning up
+       Finished

@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Name=Tassel 5
+Exec="/home/zzq/TASSEL5/Tassel 5" %U
+Icon=/home/zzq/TASSEL5/.install4j/Tassel 5.png
+Categories=Application;
+StartupWMClass=install4j-net-maizegenetics-tassel-TASSELMainApp
